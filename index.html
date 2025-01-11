@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Coding Assesment L2 Boilerplate</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header-part">
+            <div class="header-container">
+                <div class="logo-container">
+                    <img class="logo" src="./assets/marmeto.png" alt="marmeto-logo" />
+                    <h1 class="marmeto">Marmeto</h1>
+                </div>
+
+                <div class="nav-part">
+                    <a class='nav-item' href="/home">Home</a>
+                    <a class='nav-item' href="/shop">Shop</a>
+                    <a class='nav-item' href="about">About</a>
+                    <a class='nav-item' href="contact">Contact</a>
+                </div>
+
+                <div class="options">
+                    <img class="nav" src="./assets/search.png" alt="search" />
+                    <img class="nav" src="./assets/akar-icons_heart.png" alt="heart" />
+                    <img class="nav" src="./assets/ant-design_shopping-cart-outlined.png" alt="cart" />
+                </div>
+            </div>
+        </div>
+
+        <!-- Cart Section -->
+        <div class="cart-bg">
+            <div class="cart-options">
+                <img class="logo" src="./assets/marmeto.png" alt="marmeto-logo" />
+                <h1>Cart</h1>
+                <div class="cart-optionss">
+                    <h4>Home</h4>
+                    <h4 class="vector"><</h4>
+                    <h4>Cart</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="cart-box">
+            <div class="cart-container">
+                <!-- Left Cart -->
+                <div class="leftcart">
+                    <div class="leftcart-items">
+                        <h4 class="product">Product</h4>
+                        <h4 class="product">Price</h4>
+                        <h4 class="product">Quantity</h4>
+                        <h4 class="product">SubTotal</h4>
+                    </div>
+                    <div class="leftcart-details" id="cart-items">
+                        <h4>Product</h4>
+                        <h4 >Price</h4>
+                        <h4 >Quantity</h4>
+                        <h4 >SubTotal</h4>
+                    </div>
+                </div>
+
+                <!-- Right Cart -->
+                <div class="right-cart">
+                    <h2 class='cartbold'>Cart Details</h2>
+                    <div class="subtotal">
+                        <h4>SubTotal</h4>
+                        <h4 id="subtotal"></h4>
+                    </div>
+                    <div class="total">
+                        <h4>Total</h4>
+                        <h4 id="total"></h4>
+                    </div>
+                    <button class="btn" id="checkout-btn">Check Out</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer-container">
+            <div class="footersub">
+                <img class='footer-logo' src="./assets/trophy 1.png" />
+                <div class="footersubone">
+                    <h2>High Quality</h2>
+                    <p>Crafted from Top Materials</p>
+                </div>
+            </div>
+            <div class="footersub">
+                <img class='footer-logo' src="assets/guarantee.png" />
+                <div class="footersubone">
+                    <h2>Warranty Protection</h2>
+                    <p>Over 2 years</p>
+                </div>
+            </div>
+            <div class="footersub">
+                <img class='footer-logo' src="./assets/shipping.png" />
+                <div class="footersubone">
+                    <h2>Free Shipping</h2>
+                    <p>Order over 150 $</p>
+                </div>
+            </div>
+            <div class="footersub">
+                <img class='footer-logo' src="./assets/customer-support.png" />
+                <div class="footersubone">
+                    <h2>24/7 Support</h2>
+                    <p>Dedicated Support</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
